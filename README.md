@@ -14,21 +14,14 @@ It allows users to access reliable, up-to-date information about blocks, transac
 T-explorer is developed in Python (latest stable version), ensuring high performance and compatibility with modern libraries.
 Key implementation components:
 
-**telebot** → Communication with the Telegram API and command handling.
-
-**Pillow (PIL)** → Dynamic image generation, QR code rendering, and chart creation.
-
-**qrcode** → Secure generation of QR codes for user addresses.
-
-**matplotlib** → Price charts, validator statistics, and token metrics.
-
-**pandas** → Efficient processing of blockchain data and price information.
-
-**requests** → Real-time HTTP requests to blockchain and market data APIs.
-
-**datetime / timedelta** → Timestamp management and interval calculations.
-
-**json & os** → Data persistence and lightweight session storage.
+- `telebot` → Communication with the Telegram API and command handling.  
+- `Pillow (PIL)` → Dynamic image generation, QR code rendering, and chart creation.  
+- `qrcode` → Secure generation of QR codes for user addresses.  
+- `matplotlib` → Price charts, validator statistics, and token metrics.  
+- `pandas` → Efficient processing of blockchain data and price information.  
+- `requests` → Real-time HTTP requests to blockchain and market data APIs.  
+- `datetime / timedelta` → Timestamp management and interval calculations.  
+- `json & os` → Data persistence and lightweight session storage.  
 
 The bot is optimized to run on Linux VPS environments, ensuring stability and continuous availability.
 
@@ -36,15 +29,11 @@ The bot is optimized to run on Linux VPS environments, ensuring stability and co
 
 To guarantee accuracy and redundancy, T-explorer combines multiple data sources:
 
-**Coingecko API** → TRX prices and data for other TRON ecosystem tokens.
-
-**Binance API** → Real-time market depth, volume, and price quotes.
-
-**3xpl API** → Independent block and transaction exploration.
-
-**Trongrid API** → High-performance RPC gateway for blocks, transactions, and events.
-
-**Tronscan Public API** → Contract information, tokens, validators, and governance (proposals, votes).
+- `Coingecko API` → TRX prices and data for other TRON ecosystem tokens.
+- `Binance API` → Real-time market depth, volume, and price quotes.
+- `3xpl API` → Independent block and transaction exploration.
+- `Trongrid API` → High-performance RPC gateway for blocks, transactions, and events.
+- `Tronscan Public API` → Contract information, tokens, validators, and governance (proposals, votes).
 
 ### **Main Features**
 
@@ -95,15 +84,11 @@ Messages include bold text, emojis, and interactive buttons to open explorers or
 
 T-explorer aims to be the most complete, modular, and accessible TRON explorer available inside Telegram, enabling any user to:
 
-Audit contract and transaction history.
-
-Verify tokenomics and holder distribution.
-
-Monitor SR participation and governance proposals.
-
-Simulate transaction costs and compare gas fees across chains.
-
-Retrieve prices and balances instantly.
+- Audit contract and transaction history.
+- Verify tokenomics and holder distribution.
+- Monitor SR participation and governance proposals.
+- Simulate transaction costs and compare gas fees across chains.
+- Retrieve prices and balances instantly.
 
 In this way, it turns Telegram into a mini blockchain explorer, bringing on-chain data closer to users in a simple, transparent, and trustless manner.
 
