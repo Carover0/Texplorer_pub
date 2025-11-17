@@ -1,6 +1,8 @@
-# TExplorer_pub
+>[!NOTE]
+>Before getting started, I should mention that both the Spanish-speaking community and the TRON English community completely ignored the project. I was even removed from the English group just for saying a few words in Spanish while introducing it. So, we can say the project was entirely overlooked by the community.  
+>[VIDEO](https://free2z.cash/uploadz/public/c%CE%94rov%CE%A3r0/eng-2510-texplorer.mp4)
 
-TRON block explorer for Telegram
+
 ## **Technical Report T-explorer**
 
 T-explorer is an advanced Telegram bot designed to explore the TRON blockchain in a simple and precise way.
